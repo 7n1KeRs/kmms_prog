@@ -2,8 +2,8 @@
 chcp 1251 > log
 del log
 
-set CPP_FILES="after_refactoring_5.cpp"
-set EXE=example.exe
+set CPP_FILES="main.cpp"
+set EXE=mario.exe
 set CHARSET="-finput-charset=utf-8 -fexec-charset=windows-1251"
 
 if exist %EXE% del %EXE%
