@@ -1,10 +1,7 @@
-#ifndef SORTINGS_HPP
-#define SORTINGS_HPP
+#pragma once
 
 namespace biv {
 	namespace sortings {
 		void bubble_sort(int* const arr, const int size);
 	}
 }
-
-#endif
